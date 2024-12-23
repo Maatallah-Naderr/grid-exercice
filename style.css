@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container {
+
+    width: 100%;
+     height: 1000px; 
+    border: solid 2px black;
+    display: grid;
+    grid-template-areas: 
+    "myheder myheder myheder myheder  "
+     "myimage myimage myimage myimage  " 
+     "mysidebar  mysidebar mymain mymain " 
+     "mysidebar  mysidebar  mymain mymain " 
+     "mysidebar mysidebar mybananer mybananer "
+     "mysidebar mysidebar  mypub  myimg"
+     "myfooter myfooter myfooter myfooter "
+     ;
+
+
+
+  
+    
+
+
+}
+    
+
+
+.header{
+    background-color: blue;
+    grid-area: myheder;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.img {
+    background-color: rgba(129, 129, 192, 0.897);
+    grid-area: myimage;
+  
+
+}
+.sidebar{
+    background-color: red;
+    grid-area: mysidebar;
+
+}
+.main {
+    background-color: rgba(19, 19, 224, 0.808);
+    grid-area: mymain;
+
+}
+.bananer{
+    background-color: yellow;
+    grid-area: mybananer;
+
+
+}
+.imag{
+    background-color: rgb(75, 114, 75);
+    grid-area: myimg;
+
+}
+.pub{
+background-color: greenyellow;
+grid-area: mypub;
+
+}
+.footer{
+background-color: rgb(54, 54, 97);
+grid-area: myfooter;
+}
